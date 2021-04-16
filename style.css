@@ -12,6 +12,16 @@ header{
     height: 6em;
     display: flex;
 }
+.header-menu{
+    display: none;
+}
+@media(max-widdht:1080px) {
+    .header-menu{
+        background-color: #9767A9;
+        display: block;
+        align-items: center;
+    }
+}
 .logo{
     width: 15%;
     display: flex;
@@ -31,6 +41,11 @@ header{
     display: flex;
     list-style: none;
     justify-content: space-around;
+}
+@media(max-widdht:1080px) {
+    .header-list{
+        display: none;
+    }
 }
 .list{
     color: #9767A9;
