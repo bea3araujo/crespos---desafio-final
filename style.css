@@ -90,83 +90,161 @@ header{
 }
 .main-title{
     width: 100%;
-    height: 45em;
-    background-image:url(/imagens/cabeludo.png);
+    height: 37em;
+    background-image:url(imagens/cabeludo.png);
+    background-size:cover;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 .main-title h1{
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 100px;
-    width: 25%;
+    font-size: 75px;
+    width: 28%;
     display: flex;
-    align-items: center;
+    padding: 1.5em 0 0 0;
 }
 .main-title p{
     color: #FFFFFF;
-    width: 25%;
-    font-size: 40px;
+    width: 26%;
+    font-size: 30px;
     font-weight: lighter;
     display: flex;
     align-items: center;
+    padding: 2.5em 0 0 0;
 }
 .main-box-paragraph{
     background-color: #9767A9;
     width: 100%;
-    height: 21em;
+    height: 23em;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 .main-box-paragraph h2{
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
-    font-size: 55px;
-    width: 50%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    font-size: 44px;
+    width: 47%;
+    padding: 0.5em 0 0 0;  
 }
 .main-box-paragraph p{
     color: #FFFFFF;
-    font-size: 24px;
-    width: 36%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    font-size: 23px;
+    font-weight:100;
+    width: 45%;
+    padding: 2em 0 0 0.5em;
 }
 .main-tips{
     display: flex;
     flex-direction: row;
 }
-.main-box{
+.images-background{
     width: 100%;
+    display: flex;
     flex-direction: column;
-    height: 245em;
-    display: flex;
-    justify-content: space-around;
 }
-.text{
-    width: 70%;
-    height: 32em;
+.tip-crown{
+    background-image:url(imagens/cabelo\ no\ espelho.png);
+    width: 63%;
+    height: 30em;
+    background-size: cover;
+    margin: -6em 1em 20em 4em;
+}
+.tip-maju{
+    background-image: url(imagens/NoPath\ -\ Copia\ \(18\).png);
+    width: 60%;
+    height: 30em;
+    background-size: cover;
+    margin: -38em 4em 0em 42em;
+}
+.tip-boy{
+    background-image: url(imagens/NoPath\ -\ Copia\ \(19\).png);
+    width: 78%;
+    height: 40em;
+    background-size: cover;
+    margin: 0 1em 0 8em;
+}
+.tip-queen{
+    background-image: url(imagens/NoPath\ -\ Copia\ \(49\).png);
+    width: 78%;
+    height: 40em;
+    background-size: cover;
+    margin: -15em 1em 0 57em;
+}
+.tip-source{
+    background-image: url(imagens/NoPath\ -\ Copia\ \(55\).png);
+    width: 78%;
+    height: 40em;
+    background-size: cover;
+    margin: 0 1em 0 8em;
+}
+.tip-wash{
+    background-image: url(imagens/NoPath\ -\ Copia\ \(56\).png);
+    width: 78%;
+    height: 40em;
+    background-size: cover;
+    margin: -15em 1em 0 57em;
+}
+.tip-gray{
+    background-image: url(imagens/NoPath\ -\ Copia\ \(57\).png);
+    width: 78%;
+    height: 40em;
+    background-size: cover;
+    margin: 0 1em 0 8em;
+}
+.main-text-tips{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-text-tips div{
     background-color: #9767A9;
-    display: block;
-    padding: 2em;
+    color: #FFFFFF;
 }
-.text h3{
+.main-text-tips div h3{
     font-family: 'Playfair Display', serif;
-    color: #FFFFFF;
     font-size: 35px;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0 1em 0;
+    padding: 0.7em 3.5em 0.7em 0.5em;
 }
-.text p{
-    color: #FFFFFF;
+.main-text-tips div p{
     font-size: 20px;
-    width: 88%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-weight: 100;
+    padding: 0 1em 1em 1em;
+}
+.text-crown{
+    width: 32em;
+    height: 29em;
+    margin: 14em 0 0 -51em;
+}
+.text-maju{
+    width: 34em;
+    height: 33em;
+    margin: -9.5em -3em 0 2em;
+}
+.text-boy{
+    width: 80%;
+    height: 20em;
+    margin: 13em 0 0 -50em;
+}
+.text-queen{
+    width: 75%;
+    height: 26em;
+    margin: 7em -3em 0 2em;
+}
+.text-source{
+    width: 80%;
+    height: 28em;
+    margin: 7em 0 0 -50em;
+}
+.text-wash{
+    width: 72%;
+    height: 24em;
+    margin: 3em -3em 0 2em;
+}
+.tex-gray{
+    width: 80%;
+    height: 22em;
+    margin: 10em 0 0 -50em;
 }
