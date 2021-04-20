@@ -136,115 +136,36 @@ header{
     width: 45%;
     padding: 2em 0 0 0.5em;
 }
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
 .main-tips{
-    display: flex;
-    flex-direction: row;
-}
-.images-background{
     width: 100%;
+    height: 98vh;
     display: flex;
-    flex-direction: column;
 }
-.tip-crown{
-    background-image:url(imagens/cabelo\ no\ espelho.png);
-    width: 63%;
-    height: 30em;
-    background-size: cover;
-    margin: -6em 1em 20em 4em;
-}
-.tip-maju{
-    background-image: url(imagens/NoPath\ -\ Copia\ \(18\).png);
-    width: 60%;
-    height: 30em;
-    background-size: cover;
-    margin: -38em 4em 0em 42em;
-}
-.tip-boy{
-    background-image: url(imagens/NoPath\ -\ Copia\ \(19\).png);
-    width: 78%;
-    height: 40em;
-    background-size: cover;
-    margin: 0 1em 0 8em;
-}
-.tip-queen{
-    background-image: url(imagens/NoPath\ -\ Copia\ \(49\).png);
-    width: 78%;
-    height: 40em;
-    background-size: cover;
-    margin: -15em 1em 0 57em;
-}
-.tip-source{
-    background-image: url(imagens/NoPath\ -\ Copia\ \(55\).png);
-    width: 78%;
-    height: 40em;
-    background-size: cover;
-    margin: 0 1em 0 8em;
-}
-.tip-wash{
-    background-image: url(imagens/NoPath\ -\ Copia\ \(56\).png);
-    width: 78%;
-    height: 40em;
-    background-size: cover;
-    margin: -15em 1em 0 57em;
-}
-.tip-gray{
-    background-image: url(imagens/NoPath\ -\ Copia\ \(57\).png);
-    width: 78%;
-    height: 40em;
-    background-size: cover;
-    margin: 0 1em 0 8em;
-}
-.main-text-tips{
-    width: 100%;
+.img-odd{
+    width: 50%;
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
-.main-text-tips div{
-    background-color: #9767A9;
-    color: #FFFFFF;
-}
-.main-text-tips div h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    padding: 0.7em 3.5em 0.7em 0.5em;
-}
-.main-text-tips div p{
-    font-size: 20px;
-    font-weight: 100;
-    padding: 0 1em 1em 1em;
-}
-.text-crown{
-    width: 32em;
-    height: 29em;
-    margin: 14em 0 0 -51em;
-}
-.text-maju{
-    width: 34em;
-    height: 33em;
-    margin: -9.5em -3em 0 2em;
-}
-.text-boy{
+.img-odd img{
     width: 80%;
-    height: 20em;
-    margin: 13em 0 0 -50em;
+}   
+.girls{
+    margin: -4em 0 0 0;
 }
-.text-queen{
-    width: 75%;
-    height: 26em;
-    margin: 7em -3em 0 2em;
+.img-pair{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
-.text-source{
-    width: 80%;
-    height: 28em;
-    margin: 7em 0 0 -50em;
-}
-.text-wash{
-    width: 72%;
-    height: 24em;
-    margin: 3em -3em 0 2em;
-}
-.tex-gray{
-    width: 80%;
-    height: 22em;
-    margin: 10em 0 0 -50em;
+.img-pair img{
+    width: 85%;
+    padding: 0 0 0 1em;
 }
