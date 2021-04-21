@@ -90,7 +90,7 @@ header{
 }
 .main-title{
     width: 100%;
-    height: 37em;
+    height: 80vh;
     background-image:url(imagens/cabeludo.png);
     background-size:cover;
     display: flex;
@@ -139,13 +139,13 @@ header{
 .main-container{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .main-tips{
     width: 100%;
-    height: 98vh;
+    height: 120vh;
     display: flex;
+    position: relative;
 }
 .img-odd{
     width: 50%;
@@ -154,7 +154,7 @@ header{
     justify-content: flex-end;
 }
 .img-odd img{
-    width: 80%;
+    width: 85%;
 }   
 .girls{
     margin: -4em 0 0 0;
@@ -168,4 +168,44 @@ header{
 .img-pair img{
     width: 85%;
     padding: 0 0 0 1em;
+}
+.text-odd{
+    background-color: #9767A9;
+    width: 35%;
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 1em;
+    position:absolute;
+    z-index: 1;
+    bottom: 120px;
+    left: 150px;
+}
+.text-odd h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    padding: 0 2.5em 0.3em 0;
+}
+.text-pair{
+    background-color: #9767A9;
+    width: 33%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 1em;
+    position:absolute;
+    z-index: 1;
+    bottom: -290px;
+    right: 140px;
+}
+.text-pair h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    padding: 0 0 0.3em 0;
 }
