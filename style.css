@@ -201,11 +201,42 @@ header{
     padding: 1em;
     position:absolute;
     z-index: 1;
-    bottom: -290px;
+    bottom: -250px;
     right: 140px;
 }
 .text-pair h3{
     font-family: 'Playfair Display', serif;
     font-size: 33px;
     padding: 0 0 0.3em 0;
+}
+.grid{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.grid-esquerda{
+    width: 42%;
+    display: flex;
+}
+.box-homem{
+    padding: 0 0.6em 0;
+    width: 100%;
+}
+.box-homem div{
+    width: 70%;
+}
+.box-gloria{
+    padding-top: 0.6em;
+    width: 100%;
+}
+.box-conjunto .mbj{
+padding: 0.6em 0 0.8em 0;
+}
+.grid-direita{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+.grid-direita div{
+    width: 18%;
 }
